@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class T9
+{
+    public static void main(String[]args)
+    { Scanner sc=new Scanner(System.in);
+       
+        int[]a=new int[10];
+        for(int index=0;index<a.length;index++)
+        {
+            System.out.println("please enter a number");
+            a[index]=sc.nextInt();
+        }
+             int[]b=new int[1];
+        System.out.println("please enter a number");
+        b[index]=sc.nextInt();
+        for(index=0;index<a.length;index++)
+        {
+           
+        if(b[index]==a[index])
+        {
+         System.out.println("yes");   
+        }
+        else
+        {
+            System.out.println("no");
+        }
+        }
